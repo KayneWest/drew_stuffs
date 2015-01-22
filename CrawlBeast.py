@@ -7,7 +7,8 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import re
 import random
-import datetime 
+import datetime
+import sys
 
 html_escape_table = {
     "&amp;": "&",
