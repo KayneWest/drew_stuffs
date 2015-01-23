@@ -70,7 +70,7 @@ class GetSalesLists(object):
             log('getting another link')
             link="http://www.yelp.com/search?find_desc=Specialty+Food&find_loc=Chicago%2C+IL&ns=1#start="+str(i)
             self.driver.get(link)
-            self.specialty_food.append(self.driver.page_source)
+            self.specialty_food_html.append(self.driver.page_source)
 
     def farmersmarket(self):
         self.farmersmarket_html()
